@@ -24,6 +24,7 @@
 		5F5D8E7D2181CE81009AD70D /* LYRequestCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5D8E712181CE81009AD70D /* LYRequestCacheManager.m */; };
 		5F5D8E7E2181CE81009AD70D /* LYRequestHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5D8E732181CE81009AD70D /* LYRequestHandle.m */; };
 		5F5D8E7F2181CE81009AD70D /* LYGroupRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5D8E762181CE81009AD70D /* LYGroupRequest.m */; };
+		5F5D8E832181D327009AD70D /* Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5D8E822181D327009AD70D /* Test1.m */; };
 		8535DBA29F5A889B40749185 /* libPods-ssss.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB73CF910DF71D3EC59DA917 /* libPods-ssss.a */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +85,8 @@
 		5F5D8E742181CE81009AD70D /* LYRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYRequestDelegate.h; sourceTree = "<group>"; };
 		5F5D8E752181CE81009AD70D /* LYNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYNetworking.h; sourceTree = "<group>"; };
 		5F5D8E762181CE81009AD70D /* LYGroupRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYGroupRequest.m; sourceTree = "<group>"; };
+		5F5D8E812181D327009AD70D /* Test1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test1.h; sourceTree = "<group>"; };
+		5F5D8E822181D327009AD70D /* Test1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test1.m; sourceTree = "<group>"; };
 		CB73CF910DF71D3EC59DA917 /* libPods-ssss.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ssss.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E760394994FD54EEFA3C98EB /* Pods-ssss.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ssss.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ssss/Pods-ssss.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -191,6 +194,7 @@
 		5F5D8E602181CE80009AD70D /* TEST */ = {
 			isa = PBXGroup;
 			children = (
+				5F5D8E802181D314009AD70D /* Test1 */,
 				5F5D8E612181CE80009AD70D /* NSDictionary+LYAddtion.m */,
 				5F5D8E622181CE80009AD70D /* MYH.h */,
 				5F5D8E632181CE80009AD70D /* NSDictionary+Addtion.m */,
@@ -216,6 +220,15 @@
 			);
 			name = TEST;
 			path = ../../TEST;
+			sourceTree = "<group>";
+		};
+		5F5D8E802181D314009AD70D /* Test1 */ = {
+			isa = PBXGroup;
+			children = (
+				5F5D8E812181D327009AD70D /* Test1.h */,
+				5F5D8E822181D327009AD70D /* Test1.m */,
+			);
+			path = Test1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -382,6 +395,7 @@
 				5F5D8E782181CE81009AD70D /* NSDictionary+Addtion.m in Sources */,
 				5F5D8E792181CE81009AD70D /* LYRequest.m in Sources */,
 				5F5D8E102181CC9B009AD70D /* AppDelegate.m in Sources */,
+				5F5D8E832181D327009AD70D /* Test1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
